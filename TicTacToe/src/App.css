@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.board {
+  width: 70vh; /* Adjust this to suit your needs */
+  height: 70vh; 
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  background-color: blue;
+  margin: auto; /* Center the board within the parent */
+}
