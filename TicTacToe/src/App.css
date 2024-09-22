@@ -11,14 +11,31 @@ body {
   align-items: center;
   justify-content: center;
   background-color: aqua;
+  font-family: Arial, sans-serif;
 }
 
 .board {
-  width: 70vh; /* Adjust this to suit your needs */
-  height: 70vh; 
+  width: 350px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
   display: flex;
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
-  background-color: blue;
-  margin: auto; /* Center the board within the parent */
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: #eee;
+  border: 2px solid #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.square:hover {
+  background-color: #ddd;
 }
