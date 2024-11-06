@@ -6,7 +6,7 @@ const Player = ({ name, symbol }) => {
     const onClick = function(){
         setIsEditing(!isEditing);
     }
-    
+
   return (
     <li>
         <span className="player">
